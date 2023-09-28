@@ -309,7 +309,6 @@ declare module '@vue/runtime-core' {
     OnboardingV3: typeof import('./src/components/pages/layouts/onboarding/OnboardingV3.vue')['default']
     OnboardingV4: typeof import('./src/components/pages/layouts/onboarding/OnboardingV4.vue')['default']
     OnboardingV5: typeof import('./src/components/pages/layouts/onboarding/OnboardingV5.vue')['default']
-    OrdersMobileSubsidebar: typeof import('./src/layouts/mobile-subsidebars/OrdersMobileSubsidebar.vue')['default']
     OrdersSubnav: typeof import('./src/layouts/navbar-items/OrdersSubnav.vue')['default']
     OrdersSubsidebar: typeof import('./src/layouts/sidebar-subsidebar/OrdersSubsidebar.vue')['default']
     OverviewCard: typeof import('./src/components/partials/lifestyle/OverviewCard.vue')['default']

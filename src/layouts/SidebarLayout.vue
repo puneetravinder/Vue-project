@@ -136,7 +136,6 @@ watch(
         <DashboardsMobileSubsidebar v-else-if="isMobileSidebarOpen && activeMobileSubsidebar === 'dashboard'" />
         <ComponentsMobileSubsidebar v-else-if="isMobileSidebarOpen && activeMobileSubsidebar === 'components'" />
         <ElementsMobileSubsidebar v-else-if="isMobileSidebarOpen && activeMobileSubsidebar === 'elements'" />
-        <OrdersMobileSubsidebar v-else-if="isMobileSidebarOpen && activeMobileSubsidebar === 'orders'" />
       </KeepAlive>
     </Transition>
 
@@ -164,13 +163,13 @@ watch(
         </li>
 
         <!-- Elements -->
-        <li>
+        <!-- <li>
           <a :class="[activeMobileSubsidebar === 'elements' && 'is-active']" data-content="Elements"
             aria-label="View elements" tabindex="0" @keydown.space.prevent="switchSidebar('elements')"
             @click="switchSidebar('elements')">
             <i aria-hidden="true" class="iconify sidebar-svg" data-icon="feather:box"></i>
           </a>
-        </li>
+        </li> -->
 
         <!-- Components -->
         <li>
@@ -190,11 +189,11 @@ watch(
         </li>
 
         <!-- Messaging -->
-        <!-- <li>
+        <li>
           <RouterLink id="open-messages" to="/messaging-v1" data-content="Messaging">
             <i aria-hidden="true" class="iconify sidebar-svg" data-icon="feather:message-circle"></i>
           </RouterLink>
-        </li> -->
+        </li>
       </template>
 
       <template #bottom-links>
