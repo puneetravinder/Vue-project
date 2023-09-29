@@ -1,17 +1,13 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head'
 
-import { useMarkdownToc } from '/@src/composable/useMarkdownToc'
 import { useViewWrapper } from '/@src/stores/viewWrapper'
 
-const markdownContainer = ref<HTMLElement>()
-const toc = useMarkdownToc(markdownContainer)
-
 const viewWrapper = useViewWrapper()
-viewWrapper.setPageTitle('My Orders')
+viewWrapper.setPageTitle('Current Orders')
 
 useHead({
-    title: 'My Orders - Components - Vuero',
+    title: 'Current Orders - Components - Vuero',
 })
 </script>
 

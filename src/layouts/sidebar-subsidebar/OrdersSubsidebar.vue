@@ -18,6 +18,12 @@ const emit = defineEmits(['close'])
                 <li>
                     <RouterLink to="/orders/orders-history">Orders History</RouterLink>
                 </li>
+                <li class="divider with-label">
+                    <span class="divider-label">Posts Data</span>
+                </li>
+                <li>
+                    <RouterLink to="/orders/user-posts">User Posts</RouterLink>
+                </li>
             </ul>
         </div>
     </div>
