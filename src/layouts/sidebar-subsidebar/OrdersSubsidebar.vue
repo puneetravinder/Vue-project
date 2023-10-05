@@ -24,6 +24,9 @@ const emit = defineEmits(['close'])
                 <li>
                     <RouterLink to="/orders/user-posts">User Posts</RouterLink>
                 </li>
+                <li>
+                    <RouterLink to="/orders/user-data-table">User Data Table</RouterLink>
+                </li>
             </ul>
         </div>
     </div>

@@ -228,6 +228,7 @@ declare module 'vue-router/auto/routes' {
     '/orders': RouteRecordInfo<'/orders', '/orders', Record<never, never>, Record<never, never>>,
     '/orders/current-orders': RouteRecordInfo<'/orders/current-orders', '/orders/current-orders', Record<never, never>, Record<never, never>>,
     '/orders/orders-history': RouteRecordInfo<'/orders/orders-history', '/orders/orders-history', Record<never, never>, Record<never, never>>,
+    '/orders/user-data-table': RouteRecordInfo<'/orders/user-data-table', '/orders/user-data-table', Record<never, never>, Record<never, never>>,
     '/orders/user-posts/': RouteRecordInfo<'/orders/user-posts/', '/orders/user-posts/', Record<never, never>, Record<never, never>>,
     '/orders/user-posts/[postId]': RouteRecordInfo<'/orders/user-posts/[postId]', '/orders/user-posts/:postId', { postId: ParamValue<true> }, { postId: ParamValue<false> }>,
     '/roadmap': RouteRecordInfo<'/roadmap', '/roadmap', Record<never, never>, Record<never, never>>,

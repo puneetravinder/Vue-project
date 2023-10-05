@@ -7,6 +7,9 @@ import VueroApp from './VueroApp.vue'
 import './styles'
 
 import { createApi } from '/@src/composable/useApi'
+import VueGoodTablePlugin from 'vue-good-table-next';
+// vue good table styles
+import 'vue-good-table-next/dist/vue-good-table-next.css'
 
 export type VueroAppContext = Awaited<ReturnType<typeof createApp>>
 export type VueroPlugin = (vuero: VueroAppContext) => void | Promise<void>
@@ -30,6 +33,8 @@ export async function createApp() {
 
   const pinia = createPinia()
   app.use(pinia)
+
+  app.use(VueGoodTablePlugin);
 
   const vuero = {
     app,
