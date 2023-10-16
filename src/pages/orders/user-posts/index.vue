@@ -8,7 +8,7 @@ import { useApi } from '/@src/composable/useApi'
 const viewWrapper = useViewWrapper()
 viewWrapper.setPageTitle('User Posts')
 useHead({
-    title: 'Posts - Components - Vuero',
+    title: 'Posts - Orders - Vuero',
 })
 const api = useApi();
 let limit = 10;

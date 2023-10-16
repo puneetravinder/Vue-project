@@ -7,7 +7,7 @@ import { useApi } from '/@src/composable/useApi'
 const viewWrapper = useViewWrapper()
 viewWrapper.setPageTitle('User Data Table')
 useHead({
-    title: 'User Data Table - Components - Vuero',
+    title: 'User Data Table - Orders - Vuero',
 })
 
 const api = useApi()

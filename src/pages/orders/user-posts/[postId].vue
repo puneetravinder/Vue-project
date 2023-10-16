@@ -8,7 +8,7 @@ import { useApi } from '/@src/composable/useApi'
 const viewWrapper = useViewWrapper()
 viewWrapper.setPageTitle('Post Comments')
 useHead({
-    title: 'Post Comments - Components - Vuero',
+    title: 'Post Comments - Orders - Vuero',
 })
 
 interface ParamsTypes {

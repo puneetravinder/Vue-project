@@ -6,7 +6,7 @@ const viewWrapper = useViewWrapper()
 viewWrapper.setPageTitle('Orders History')
 
 useHead({
-    title: 'Orders History - Components - Vuero',
+    title: 'Orders History - Orders - Vuero',
 })
 </script>
 
